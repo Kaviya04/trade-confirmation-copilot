@@ -97,3 +97,5 @@ patterns from `payment-reconciliation-engine`.
 
 All trade data in this repository is synthetic, generated for demonstration
 purposes. No real client, counterparty, or trade data is used.
+
+For detailed read: [https://app.notion.com/p/Trade-Confirmation-Affirmation-Copilot-Project-Doc-3abcf8fc0ddc8145acc8f56639b36e42]

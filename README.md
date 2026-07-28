@@ -100,5 +100,5 @@ purposes. No real client, counterparty, or trade data is used.
 
 ##Further References
 
-Mock Dashboard: [http://localhost:8501/#trade-confirmation-and-affirmation-copilot]
-For detailed read: [https://app.notion.com/p/Trade-Confirmation-Affirmation-Copilot-Project-Doc-3abcf8fc0ddc8145acc8f56639b36e42]
+1. Mock Dashboard: [http://localhost:8501/#trade-confirmation-and-affirmation-copilot] 
+2. For detailed read: [https://app.notion.com/p/Trade-Confirmation-Affirmation-Copilot-Project-Doc-3abcf8fc0ddc8145acc8f56639b36e42]

@@ -1,0 +1,658 @@
+[
+  {
+    "trade_id": "TRD-2026-00001",
+    "status": "AFFIRMED",
+    "counterparty": "GOLDMAN SACHS INTL",
+    "isin": "US0378331005",
+    "instrument_name": "Apple Inc",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00002",
+    "status": "AFFIRMED",
+    "counterparty": "GOLDMAN SACHS INTL",
+    "isin": "DE0007236101",
+    "instrument_name": "Siemens AG",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00003",
+    "status": "BREAK",
+    "counterparty": "MORGAN STANLEY & CO",
+    "isin": "GB0002374006",
+    "instrument_name": "Diageo plc",
+    "breaks": [
+      {
+        "field": "notional",
+        "internal_value": "2273584.78",
+        "external_value": "2358219.2"
+      }
+    ],
+    "break_category": "genuine_repricing",
+    "severity": "MEDIUM",
+    "severity_rationale": "Price/notional differs beyond tolerance, suggesting a real economic discrepancy rather than rounding.",
+    "drafted_message": "Dear Operations Team,\n\nWe have identified a discrepancy on trade TRD-2026-00003 (MORGAN STANLEY & CO, GB0002374006). Specifically: notional (ours: 2273584.78, yours: 2358219.2). Could you please confirm your booking details or advise on the correction needed? We would appreciate a response ahead of settlement date to avoid further delay.\n\nKind regards,\nPost-Trade Operations",
+    "mock": true
+  },
+  {
+    "trade_id": "TRD-2026-00004",
+    "status": "AFFIRMED",
+    "counterparty": "GOLDMAN SACHS INTL",
+    "isin": "US88160R1014",
+    "instrument_name": "Tesla Inc",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00005",
+    "status": "AFFIRMED",
+    "counterparty": "DEUTSCHE BANK AG",
+    "isin": "CH0038863350",
+    "instrument_name": "Nestle SA",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00006",
+    "status": "AFFIRMED",
+    "counterparty": "DEUTSCHE BANK AG",
+    "isin": "US88160R1014",
+    "instrument_name": "Tesla Inc",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00007",
+    "status": "AFFIRMED",
+    "counterparty": "BARCLAYS BANK PLC",
+    "isin": "US0378331005",
+    "instrument_name": "Apple Inc",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00008",
+    "status": "BREAK",
+    "counterparty": "UBS AG LONDON",
+    "isin": "DE0005190003",
+    "instrument_name": "BMW AG",
+    "breaks": [
+      {
+        "field": "ssi",
+        "internal_value": "SSI-EUR-002",
+        "external_value": "SSI-GBP-001"
+      }
+    ],
+    "break_category": "static_data_error",
+    "severity": "HIGH",
+    "severity_rationale": "Incorrect settlement/counterparty static data risks misdirected securities or cash.",
+    "drafted_message": "Dear Operations Team,\n\nWe have identified a discrepancy on trade TRD-2026-00008 (UBS AG LONDON, DE0005190003). Specifically: ssi (ours: SSI-EUR-002, yours: SSI-GBP-001). Could you please confirm your booking details or advise on the correction needed? We would appreciate a response ahead of settlement date to avoid further delay.\n\nKind regards,\nPost-Trade Operations",
+    "mock": true
+  },
+  {
+    "trade_id": "TRD-2026-00009",
+    "status": "AFFIRMED",
+    "counterparty": "UBS AG LONDON",
+    "isin": "NL0011821202",
+    "instrument_name": "ASML Holding",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00010",
+    "status": "AFFIRMED",
+    "counterparty": "JPMORGAN CHASE BANK NA",
+    "isin": "GB0002374006",
+    "instrument_name": "Diageo plc",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00011",
+    "status": "AFFIRMED",
+    "counterparty": "UBS AG LONDON",
+    "isin": "GB0002374006",
+    "instrument_name": "Diageo plc",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00012",
+    "status": "BREAK",
+    "counterparty": "DEUTSCHE BANK AG",
+    "isin": "GB0002374006",
+    "instrument_name": "Diageo plc",
+    "breaks": [
+      {
+        "field": "price",
+        "internal_value": "202.0362",
+        "external_value": "211.0155"
+      }
+    ],
+    "break_category": "genuine_repricing",
+    "severity": "MEDIUM",
+    "severity_rationale": "Price/notional differs beyond tolerance, suggesting a real economic discrepancy rather than rounding.",
+    "drafted_message": "Dear Operations Team,\n\nWe have identified a discrepancy on trade TRD-2026-00012 (DEUTSCHE BANK AG, GB0002374006). Specifically: price (ours: 202.0362, yours: 211.0155). Could you please confirm your booking details or advise on the correction needed? We would appreciate a response ahead of settlement date to avoid further delay.\n\nKind regards,\nPost-Trade Operations",
+    "mock": true
+  },
+  {
+    "trade_id": "TRD-2026-00013",
+    "status": "AFFIRMED",
+    "counterparty": "UBS AG LONDON",
+    "isin": "FR0000131104",
+    "instrument_name": "BNP Paribas",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00014",
+    "status": "AFFIRMED",
+    "counterparty": "DEUTSCHE BANK AG",
+    "isin": "CH0038863350",
+    "instrument_name": "Nestle SA",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00015",
+    "status": "AFFIRMED",
+    "counterparty": "GOLDMAN SACHS INTL",
+    "isin": "US88160R1014",
+    "instrument_name": "Tesla Inc",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00016",
+    "status": "AFFIRMED",
+    "counterparty": "UBS AG LONDON",
+    "isin": "US0378331005",
+    "instrument_name": "Apple Inc",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00017",
+    "status": "AFFIRMED",
+    "counterparty": "DEUTSCHE BANK AG",
+    "isin": "FR0000131104",
+    "instrument_name": "BNP Paribas",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00018",
+    "status": "BREAK",
+    "counterparty": "JPMORGAN CHASE BANK NA",
+    "isin": "US0378331005",
+    "instrument_name": "Apple Inc",
+    "breaks": [
+      {
+        "field": "counterparty",
+        "internal_value": "JPMORGAN CHASE BANK NA",
+        "external_value": "GOLDMAN SACHS INTL"
+      }
+    ],
+    "break_category": "static_data_error",
+    "severity": "HIGH",
+    "severity_rationale": "Incorrect settlement/counterparty static data risks misdirected securities or cash.",
+    "drafted_message": "Dear Operations Team,\n\nWe have identified a discrepancy on trade TRD-2026-00018 (JPMORGAN CHASE BANK NA, US0378331005). Specifically: counterparty (ours: JPMORGAN CHASE BANK NA, yours: GOLDMAN SACHS INTL). Could you please confirm your booking details or advise on the correction needed? We would appreciate a response ahead of settlement date to avoid further delay.\n\nKind regards,\nPost-Trade Operations",
+    "mock": true
+  },
+  {
+    "trade_id": "TRD-2026-00019",
+    "status": "AFFIRMED",
+    "counterparty": "UBS AG LONDON",
+    "isin": "US0378331005",
+    "instrument_name": "Apple Inc",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00020",
+    "status": "AFFIRMED",
+    "counterparty": "JPMORGAN CHASE BANK NA",
+    "isin": "FR0000131104",
+    "instrument_name": "BNP Paribas",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00021",
+    "status": "BREAK",
+    "counterparty": "UBS AG LONDON",
+    "isin": "GB0002374006",
+    "instrument_name": "Diageo plc",
+    "breaks": [
+      {
+        "field": "price",
+        "internal_value": "383.6231",
+        "external_value": "392.6472"
+      }
+    ],
+    "break_category": "genuine_repricing",
+    "severity": "MEDIUM",
+    "severity_rationale": "Price/notional differs beyond tolerance, suggesting a real economic discrepancy rather than rounding.",
+    "drafted_message": "Dear Operations Team,\n\nWe have identified a discrepancy on trade TRD-2026-00021 (UBS AG LONDON, GB0002374006). Specifically: price (ours: 383.6231, yours: 392.6472). Could you please confirm your booking details or advise on the correction needed? We would appreciate a response ahead of settlement date to avoid further delay.\n\nKind regards,\nPost-Trade Operations",
+    "mock": true
+  },
+  {
+    "trade_id": "TRD-2026-00022",
+    "status": "AFFIRMED",
+    "counterparty": "DEUTSCHE BANK AG",
+    "isin": "NL0011821202",
+    "instrument_name": "ASML Holding",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00023",
+    "status": "AFFIRMED",
+    "counterparty": "GOLDMAN SACHS INTL",
+    "isin": "US88160R1014",
+    "instrument_name": "Tesla Inc",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00024",
+    "status": "AFFIRMED",
+    "counterparty": "MORGAN STANLEY & CO",
+    "isin": "CH0038863350",
+    "instrument_name": "Nestle SA",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00025",
+    "status": "AFFIRMED",
+    "counterparty": "BARCLAYS BANK PLC",
+    "isin": "US88160R1014",
+    "instrument_name": "Tesla Inc",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00026",
+    "status": "BREAK",
+    "counterparty": "GOLDMAN SACHS INTL",
+    "isin": "US88160R1014",
+    "instrument_name": "Tesla Inc",
+    "breaks": [
+      {
+        "field": "ssi",
+        "internal_value": "SSI-EUR-002",
+        "external_value": "SSI-USD-001"
+      }
+    ],
+    "break_category": "static_data_error",
+    "severity": "HIGH",
+    "severity_rationale": "Incorrect settlement/counterparty static data risks misdirected securities or cash.",
+    "drafted_message": "Dear Operations Team,\n\nWe have identified a discrepancy on trade TRD-2026-00026 (GOLDMAN SACHS INTL, US88160R1014). Specifically: ssi (ours: SSI-EUR-002, yours: SSI-USD-001). Could you please confirm your booking details or advise on the correction needed? We would appreciate a response ahead of settlement date to avoid further delay.\n\nKind regards,\nPost-Trade Operations",
+    "mock": true
+  },
+  {
+    "trade_id": "TRD-2026-00027",
+    "status": "AFFIRMED",
+    "counterparty": "BARCLAYS BANK PLC",
+    "isin": "US0378331005",
+    "instrument_name": "Apple Inc",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00028",
+    "status": "AFFIRMED",
+    "counterparty": "MORGAN STANLEY & CO",
+    "isin": "NL0011821202",
+    "instrument_name": "ASML Holding",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00029",
+    "status": "BREAK",
+    "counterparty": "JPMORGAN CHASE BANK NA",
+    "isin": "GB0002374006",
+    "instrument_name": "Diageo plc",
+    "breaks": [
+      {
+        "field": "settlement_date",
+        "internal_value": "2026-07-31",
+        "external_value": "2026-07-30"
+      }
+    ],
+    "break_category": "timing_difference",
+    "severity": "MEDIUM",
+    "severity_rationale": "Settlement date mismatch of a day or two, likely a T+ convention or calendar difference.",
+    "drafted_message": "Dear Operations Team,\n\nWe have identified a discrepancy on trade TRD-2026-00029 (JPMORGAN CHASE BANK NA, GB0002374006). Specifically: settlement_date (ours: 2026-07-31, yours: 2026-07-30). Could you please confirm your booking details or advise on the correction needed? We would appreciate a response ahead of settlement date to avoid further delay.\n\nKind regards,\nPost-Trade Operations",
+    "mock": true
+  },
+  {
+    "trade_id": "TRD-2026-00030",
+    "status": "AFFIRMED",
+    "counterparty": "DEUTSCHE BANK AG",
+    "isin": "DE0007236101",
+    "instrument_name": "Siemens AG",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00031",
+    "status": "AFFIRMED",
+    "counterparty": "GOLDMAN SACHS INTL",
+    "isin": "FR0000131104",
+    "instrument_name": "BNP Paribas",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00032",
+    "status": "AFFIRMED",
+    "counterparty": "BARCLAYS BANK PLC",
+    "isin": "NL0011821202",
+    "instrument_name": "ASML Holding",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00033",
+    "status": "BREAK",
+    "counterparty": "UBS AG LONDON",
+    "isin": "GB0002374006",
+    "instrument_name": "Diageo plc",
+    "breaks": [
+      {
+        "field": "ssi",
+        "internal_value": "SSI-EUR-002",
+        "external_value": "SSI-USD-001"
+      }
+    ],
+    "break_category": "static_data_error",
+    "severity": "HIGH",
+    "severity_rationale": "Incorrect settlement/counterparty static data risks misdirected securities or cash.",
+    "drafted_message": "Dear Operations Team,\n\nWe have identified a discrepancy on trade TRD-2026-00033 (UBS AG LONDON, GB0002374006). Specifically: ssi (ours: SSI-EUR-002, yours: SSI-USD-001). Could you please confirm your booking details or advise on the correction needed? We would appreciate a response ahead of settlement date to avoid further delay.\n\nKind regards,\nPost-Trade Operations",
+    "mock": true
+  },
+  {
+    "trade_id": "TRD-2026-00034",
+    "status": "AFFIRMED",
+    "counterparty": "BARCLAYS BANK PLC",
+    "isin": "DE0005190003",
+    "instrument_name": "BMW AG",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00035",
+    "status": "AFFIRMED",
+    "counterparty": "GOLDMAN SACHS INTL",
+    "isin": "US0378331005",
+    "instrument_name": "Apple Inc",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00036",
+    "status": "AFFIRMED",
+    "counterparty": "JPMORGAN CHASE BANK NA",
+    "isin": "US88160R1014",
+    "instrument_name": "Tesla Inc",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00037",
+    "status": "AFFIRMED",
+    "counterparty": "UBS AG LONDON",
+    "isin": "DE0005190003",
+    "instrument_name": "BMW AG",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00038",
+    "status": "AFFIRMED",
+    "counterparty": "JPMORGAN CHASE BANK NA",
+    "isin": "FR0000131104",
+    "instrument_name": "BNP Paribas",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00039",
+    "status": "BREAK",
+    "counterparty": "GOLDMAN SACHS INTL",
+    "isin": "DE0005190003",
+    "instrument_name": "BMW AG",
+    "breaks": [
+      {
+        "field": "notional",
+        "internal_value": "506877.42",
+        "external_value": "542850.04"
+      }
+    ],
+    "break_category": "genuine_repricing",
+    "severity": "MEDIUM",
+    "severity_rationale": "Price/notional differs beyond tolerance, suggesting a real economic discrepancy rather than rounding.",
+    "drafted_message": "Dear Operations Team,\n\nWe have identified a discrepancy on trade TRD-2026-00039 (GOLDMAN SACHS INTL, DE0005190003). Specifically: notional (ours: 506877.42, yours: 542850.04). Could you please confirm your booking details or advise on the correction needed? We would appreciate a response ahead of settlement date to avoid further delay.\n\nKind regards,\nPost-Trade Operations",
+    "mock": true
+  },
+  {
+    "trade_id": "TRD-2026-00040",
+    "status": "BREAK",
+    "counterparty": "MORGAN STANLEY & CO",
+    "isin": "DE0005190003",
+    "instrument_name": "BMW AG",
+    "breaks": [
+      {
+        "field": "confirmation",
+        "internal_value": "booked",
+        "external_value": "MISSING - no confirmation received"
+      }
+    ],
+    "break_category": "missing_confirmation",
+    "severity": "HIGH",
+    "severity_rationale": "No confirmation received; settlement cannot be affirmed until counterparty responds.",
+    "drafted_message": "Dear Operations Team,\n\nWe have identified a discrepancy on trade TRD-2026-00040 (MORGAN STANLEY & CO, DE0005190003). Specifically: confirmation (ours: booked, yours: MISSING - no confirmation received). Could you please confirm your booking details or advise on the correction needed? We would appreciate a response ahead of settlement date to avoid further delay.\n\nKind regards,\nPost-Trade Operations",
+    "mock": true
+  },
+  {
+    "trade_id": "TRD-2026-00041",
+    "status": "BREAK",
+    "counterparty": "DEUTSCHE BANK AG",
+    "isin": "FR0000131104",
+    "instrument_name": "BNP Paribas",
+    "breaks": [
+      {
+        "field": "settlement_date",
+        "internal_value": "2026-08-02",
+        "external_value": "2026-08-03"
+      }
+    ],
+    "break_category": "timing_difference",
+    "severity": "MEDIUM",
+    "severity_rationale": "Settlement date mismatch of a day or two, likely a T+ convention or calendar difference.",
+    "drafted_message": "Dear Operations Team,\n\nWe have identified a discrepancy on trade TRD-2026-00041 (DEUTSCHE BANK AG, FR0000131104). Specifically: settlement_date (ours: 2026-08-02, yours: 2026-08-03). Could you please confirm your booking details or advise on the correction needed? We would appreciate a response ahead of settlement date to avoid further delay.\n\nKind regards,\nPost-Trade Operations",
+    "mock": true
+  },
+  {
+    "trade_id": "TRD-2026-00042",
+    "status": "AFFIRMED",
+    "counterparty": "JPMORGAN CHASE BANK NA",
+    "isin": "DE0007236101",
+    "instrument_name": "Siemens AG",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00043",
+    "status": "BREAK",
+    "counterparty": "MORGAN STANLEY & CO",
+    "isin": "FR0000131104",
+    "instrument_name": "BNP Paribas",
+    "breaks": [
+      {
+        "field": "settlement_date",
+        "internal_value": "2026-07-30",
+        "external_value": "2026-07-31"
+      }
+    ],
+    "break_category": "timing_difference",
+    "severity": "MEDIUM",
+    "severity_rationale": "Settlement date mismatch of a day or two, likely a T+ convention or calendar difference.",
+    "drafted_message": "Dear Operations Team,\n\nWe have identified a discrepancy on trade TRD-2026-00043 (MORGAN STANLEY & CO, FR0000131104). Specifically: settlement_date (ours: 2026-07-30, yours: 2026-07-31). Could you please confirm your booking details or advise on the correction needed? We would appreciate a response ahead of settlement date to avoid further delay.\n\nKind regards,\nPost-Trade Operations",
+    "mock": true
+  },
+  {
+    "trade_id": "TRD-2026-00044",
+    "status": "BREAK",
+    "counterparty": "JPMORGAN CHASE BANK NA",
+    "isin": "NL0011821202",
+    "instrument_name": "ASML Holding",
+    "breaks": [
+      {
+        "field": "ssi",
+        "internal_value": "SSI-EUR-001",
+        "external_value": "SSI-GBP-001"
+      }
+    ],
+    "break_category": "static_data_error",
+    "severity": "HIGH",
+    "severity_rationale": "Incorrect settlement/counterparty static data risks misdirected securities or cash.",
+    "drafted_message": "Dear Operations Team,\n\nWe have identified a discrepancy on trade TRD-2026-00044 (JPMORGAN CHASE BANK NA, NL0011821202). Specifically: ssi (ours: SSI-EUR-001, yours: SSI-GBP-001). Could you please confirm your booking details or advise on the correction needed? We would appreciate a response ahead of settlement date to avoid further delay.\n\nKind regards,\nPost-Trade Operations",
+    "mock": true
+  },
+  {
+    "trade_id": "TRD-2026-00045",
+    "status": "AFFIRMED",
+    "counterparty": "MORGAN STANLEY & CO",
+    "isin": "DE0005190003",
+    "instrument_name": "BMW AG",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00046",
+    "status": "BREAK",
+    "counterparty": "JPMORGAN CHASE BANK NA",
+    "isin": "DE0005190003",
+    "instrument_name": "BMW AG",
+    "breaks": [
+      {
+        "field": "settlement_date",
+        "internal_value": "2026-08-02",
+        "external_value": "2026-08-01"
+      }
+    ],
+    "break_category": "timing_difference",
+    "severity": "MEDIUM",
+    "severity_rationale": "Settlement date mismatch of a day or two, likely a T+ convention or calendar difference.",
+    "drafted_message": "Dear Operations Team,\n\nWe have identified a discrepancy on trade TRD-2026-00046 (JPMORGAN CHASE BANK NA, DE0005190003). Specifically: settlement_date (ours: 2026-08-02, yours: 2026-08-01). Could you please confirm your booking details or advise on the correction needed? We would appreciate a response ahead of settlement date to avoid further delay.\n\nKind regards,\nPost-Trade Operations",
+    "mock": true
+  },
+  {
+    "trade_id": "TRD-2026-00047",
+    "status": "AFFIRMED",
+    "counterparty": "GOLDMAN SACHS INTL",
+    "isin": "DE0005190003",
+    "instrument_name": "BMW AG",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00048",
+    "status": "AFFIRMED",
+    "counterparty": "JPMORGAN CHASE BANK NA",
+    "isin": "NL0011821202",
+    "instrument_name": "ASML Holding",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00049",
+    "status": "AFFIRMED",
+    "counterparty": "UBS AG LONDON",
+    "isin": "US0378331005",
+    "instrument_name": "Apple Inc",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00050",
+    "status": "AFFIRMED",
+    "counterparty": "BARCLAYS BANK PLC",
+    "isin": "US88160R1014",
+    "instrument_name": "Tesla Inc",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00051",
+    "status": "BREAK",
+    "counterparty": "DEUTSCHE BANK AG",
+    "isin": "FR0000131104",
+    "instrument_name": "BNP Paribas",
+    "breaks": [
+      {
+        "field": "counterparty",
+        "internal_value": "DEUTSCHE BANK AG",
+        "external_value": "UBS AG LONDON"
+      }
+    ],
+    "break_category": "static_data_error",
+    "severity": "HIGH",
+    "severity_rationale": "Incorrect settlement/counterparty static data risks misdirected securities or cash.",
+    "drafted_message": "Dear Operations Team,\n\nWe have identified a discrepancy on trade TRD-2026-00051 (DEUTSCHE BANK AG, FR0000131104). Specifically: counterparty (ours: DEUTSCHE BANK AG, yours: UBS AG LONDON). Could you please confirm your booking details or advise on the correction needed? We would appreciate a response ahead of settlement date to avoid further delay.\n\nKind regards,\nPost-Trade Operations",
+    "mock": true
+  },
+  {
+    "trade_id": "TRD-2026-00052",
+    "status": "AFFIRMED",
+    "counterparty": "BARCLAYS BANK PLC",
+    "isin": "US88160R1014",
+    "instrument_name": "Tesla Inc",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00053",
+    "status": "BREAK",
+    "counterparty": "DEUTSCHE BANK AG",
+    "isin": "DE0005190003",
+    "instrument_name": "BMW AG",
+    "breaks": [
+      {
+        "field": "notional",
+        "internal_value": "3336076.49",
+        "external_value": "3442124.75"
+      }
+    ],
+    "break_category": "genuine_repricing",
+    "severity": "MEDIUM",
+    "severity_rationale": "Price/notional differs beyond tolerance, suggesting a real economic discrepancy rather than rounding.",
+    "drafted_message": "Dear Operations Team,\n\nWe have identified a discrepancy on trade TRD-2026-00053 (DEUTSCHE BANK AG, DE0005190003). Specifically: notional (ours: 3336076.49, yours: 3442124.75). Could you please confirm your booking details or advise on the correction needed? We would appreciate a response ahead of settlement date to avoid further delay.\n\nKind regards,\nPost-Trade Operations",
+    "mock": true
+  },
+  {
+    "trade_id": "TRD-2026-00054",
+    "status": "AFFIRMED",
+    "counterparty": "MORGAN STANLEY & CO",
+    "isin": "DE0007236101",
+    "instrument_name": "Siemens AG",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00055",
+    "status": "AFFIRMED",
+    "counterparty": "UBS AG LONDON",
+    "isin": "NL0011821202",
+    "instrument_name": "ASML Holding",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00056",
+    "status": "AFFIRMED",
+    "counterparty": "BARCLAYS BANK PLC",
+    "isin": "US0378331005",
+    "instrument_name": "Apple Inc",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00057",
+    "status": "AFFIRMED",
+    "counterparty": "BARCLAYS BANK PLC",
+    "isin": "US0378331005",
+    "instrument_name": "Apple Inc",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00058",
+    "status": "AFFIRMED",
+    "counterparty": "DEUTSCHE BANK AG",
+    "isin": "CH0038863350",
+    "instrument_name": "Nestle SA",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00059",
+    "status": "AFFIRMED",
+    "counterparty": "BARCLAYS BANK PLC",
+    "isin": "CH0038863350",
+    "instrument_name": "Nestle SA",
+    "breaks": []
+  },
+  {
+    "trade_id": "TRD-2026-00060",
+    "status": "AFFIRMED",
+    "counterparty": "BARCLAYS BANK PLC",
+    "isin": "DE0005190003",
+    "instrument_name": "BMW AG",
+    "breaks": []
+  }
+]
